@@ -1,0 +1,10 @@
+# Google Sheets API
+gspread>=5.12.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Optional: for .env file support (if you want to use it)
+python-dotenv>=1.0.0
