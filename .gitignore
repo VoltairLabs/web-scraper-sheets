@@ -27,6 +27,9 @@ wheels/
 .env
 .venv
 
+# Setup scripts with sensitive data
+setup_env.sh
+
 # Credentials
 credentials.json
 token.json

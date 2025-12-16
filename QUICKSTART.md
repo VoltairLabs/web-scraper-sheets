@@ -31,7 +31,7 @@ The following values have been set up for you:
 
 - **Spreadsheet ID**: `1E5-i7-MacB5MfYfs_do_fGD7-NFYGcU_tft-Ab-pPRg`
 - **Sheet Name**: `Main`
-- **SerpAPI API Key**: `8821c01916831cf0a1a3c075f3043bf085496c07332e778934e67c622be8c98a`
+- **SerpAPI API Key**: Set via environment variable (see setup instructions below)
 - **Google Credentials Path**: `/Users/avigotskind/Downloads/GD API.json`
 
 ## ⚠️ Still Needed: Google OAuth 2.0 Client ID Credentials
@@ -102,7 +102,7 @@ source venv/bin/activate
 export GOOGLE_CREDS_PATH="/path/to/your/oauth-credentials.json"
 export SPREADSHEET_ID="1E5-i7-MacB5MfYfs_do_fGD7-NFYGcU_tft-Ab-pPRg"
 export SHEET_NAME="Main"
-export SERPAPI_API_KEY="8821c01916831cf0a1a3c075f3043bf085496c07332e778934e67c622be8c98a"
+export SERPAPI_API_KEY="your-serpapi-key-here"
 
 # Run the script
 python main.py
@@ -115,7 +115,7 @@ python main.py
 GOOGLE_CREDS_PATH=/path/to/your/oauth-credentials.json
 SPREADSHEET_ID=1E5-i7-MacB5MfYfs_do_fGD7-NFYGcU_tft-Ab-pPRg
 SHEET_NAME=Main
-SERPAPI_API_KEY=8821c01916831cf0a1a3c075f3043bf085496c07332e778934e67c622be8c98a
+SERPAPI_API_KEY=your-serpapi-key-here
 ```
 
 2. Activate virtual environment and run:

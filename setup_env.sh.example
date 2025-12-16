@@ -1,11 +1,13 @@
 #!/bin/bash
 # Setup script for environment variables
+# Copy this file to setup_env.sh and fill in your actual values
 # Run this before executing main.py: source setup_env.sh
 
-export GOOGLE_CREDS_PATH="/Users/avigotskind/Downloads/GOOG.json"
-export SPREADSHEET_ID="1E5-i7-MacB5MfYfs_do_fGD7-NFYGcU_tft-Ab-pPRg"
+export GOOGLE_CREDS_PATH="/path/to/your/google-credentials.json"
+export SPREADSHEET_ID="your-spreadsheet-id-here"
 export SHEET_NAME="Main"
-export SERPAPI_API_KEY="8821c01916831cf0a1a3c075f3043bf085496c07332e778934e67c622be8c98a"
+# IMPORTANT: Get your SerpAPI key from: https://serpapi.com/dashboard
+export SERPAPI_API_KEY="your-serpapi-key-here"
 export SKIP_EXISTING="True"
 export MAX_ROWS="30"
 
