@@ -1,0 +1,40 @@
+# Environment variables
+.env
+*.env
+setup_env.sh
+
+# OAuth2 tokens and credentials
+token.pickle
+*.pickle
+credentials.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Results
+results.json
+*.json.bak
+output/
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+

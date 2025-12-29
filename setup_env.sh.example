@@ -1,0 +1,14 @@
+#!/bin/bash
+# Setup script to configure SerpAPI key
+# Copy this file to setup_env.sh and replace YOUR_API_KEY_HERE with your actual key
+# This script exports the SERPAPI_KEY environment variable for the current session
+
+export SERPAPI_KEY="YOUR_API_KEY_HERE"
+
+echo "✅ SERPAPI_KEY environment variable has been set for this session"
+echo ""
+echo "Usage: source setup_env.sh"
+echo ""
+echo "To make it persistent, add this line to your ~/.zshrc or ~/.bashrc:"
+echo "export SERPAPI_KEY=\"your_actual_api_key_here\""
+
